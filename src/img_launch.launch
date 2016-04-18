@@ -1,0 +1,15 @@
+<launch>
+
+	<node
+		pkg = "img_convertor"
+		name = "img_capture_node"
+		type = "img_capture.py"
+	/>
+	<node
+		pkg = "img_convertor"
+		name = "img_convertor_node"
+		type = "img_convertor.py"
+	/>
+
+
+</launch>
